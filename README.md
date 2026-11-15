@@ -1,17 +1,27 @@
-# slot_machine_afanasev
+# Лабораторная работа №9. Flutter: StatefulWidget и управление состоянием
 
-A new Flutter project.
+#### Автор:
 
-## Getting Started
+- Афанасьев Глеб Викторович
+- ИСП-242
+- Дата сдачи: 14.11.2026
 
-This project is a starting point for a Flutter application.
+## Что изучили
 
-A few resources to get you started if this is your first Flutter project:
+В ходе выполнения лабораторной работы были освоены следующие темы:
+1. **Разница между `StatelessWidget` и `StatefulWidget`** — научились определять, когда виджету необходимо хранить изменяемое состояние, а когда достаточно статической конфигурации.
+2. **Управление состоянием через `setState()`** — изучили, как правильно уведомлять Flutter об изменениях данных для перерисовки интерфейса.
+3. **Подключение локальных ресурсов (assets)** — разобрались, как регистрировать изображения в `pubspec.yaml` и выводить их с помощью `Image.asset`.
+4. **Асинхронность в UI** — научились использовать `Future`, `async/await` и `Future.wait` для создания реалистичной анимации барабанов, а также проверять `mounted` для предотвращения ошибок после удаления виджета.
+5. **Создание анимаций** — применили `AnimatedOpacity` для плавного приглушения изображений во время вращения и `AnimatedSwitcher` для красивой смены текстовых сообщений.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Скриншот финального приложения
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Финальное приложение](img/step4_Afanasev.png)
+
+### Инструкция по запуску:
+
+1. git clone https://github.com/Fraay/Flutter_Lab9
+2. cd slot_machine_afanasev
+3. flutter pub get
+4. flutter run -d chrome
